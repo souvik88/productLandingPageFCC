@@ -1,0 +1,56 @@
+.logo-image {
+    width: 200px;
+    height: 150px;
+  }
+  
+  header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav {
+    width: 100%;
+  }
+  
+  .sign-up-page {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sign-up-form {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .video-page-format {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 300px;
+  }
+  
+  .video {
+    text-align: center;
+  }
+  
+  .meat-lovers {
+    height: 500px;
+    background-image: url("https://static.businessworld.in/article/article_extra_large_image/1576660861_nWQPsQ_Photo.jpg")
+  }
+  
+  @media only screen and (max-width: 600px) {
+    nav {
+      display: none;
+    }
+  }
